@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"paqet/internal/conf"
 
-	"github.com/google/gopacket/pcap"
+	"github.com/gopacket/gopacket/pcap"
 )
 
 func newHandle(cfg *conf.Network) (*pcap.Handle, error) {
